@@ -2,3 +2,7 @@
 module "test" {
     source = "https://my-gitlab-instance.local/devops/terraform/instance.git?ref=v5.0.0"
 }
+
+module "test" {
+    source = "git@my-gitlab-instance.local:devops/terraform/instance.git?ref=v5.0.0"
+}
